@@ -19,6 +19,14 @@ public class Calculator {
         return A - B;
     }
 
+    public int Multiply(int A, int B){
+        return A * B;
+    }
+
+    public int Divide(int A, int B){
+        return A / B;
+    }
+
     public void setNum1(int num1) {
         this.num1 = num1;
     }
@@ -45,6 +53,15 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return this.num1 + " + " + this.num2 + " = ";
+        String symbol = "";
+        if(this.function.equals("Add"))
+                    symbol = "+";
+        if(this.function.equals("Subtract"))
+            symbol = "-";
+        if(this.function.equals("Multiply"))
+            symbol = "x";
+        if(this.function.equals("Divide"))
+            symbol = "/";
+        return this.num1 + " " + symbol + " " + this.num2 + " = ";
     }
 }

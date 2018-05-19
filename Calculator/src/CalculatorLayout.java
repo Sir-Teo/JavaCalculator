@@ -1,3 +1,7 @@
+/*
+Java Calculator!
+By Sir-Teo
+*/
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -22,6 +26,7 @@ public class CalculatorLayout {
     private JButton Multiply;
     private JButton Divide;
     private JLabel welcomeLabel;
+    private JLabel Label2;
 
     public CalculatorLayout() {
 
@@ -120,6 +125,14 @@ public class CalculatorLayout {
                 {
                     result = cal.Subtract(cal.getNum1(), cal.getNum2());
                 }
+                if(cal.getFunction().equals("Multiply"))
+                {
+                    result = cal.Multiply(cal.getNum1(), cal.getNum2());
+                }
+                if(cal.getFunction().equals("Divide"))
+                {
+                    result = cal.Divide(cal.getNum1(), cal.getNum2());
+                }
                 TextDisplay.setText(cal.toString() + result);
             }
         });
@@ -146,6 +159,20 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 cal.setFunction("Subtract");
+                TextDisplay.setText("");
+            }
+        });
+        Multiply.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cal.setFunction("Multiply");
+                TextDisplay.setText("");
+            }
+        });
+        Divide.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cal.setFunction("Divide");
                 TextDisplay.setText("");
             }
         });
