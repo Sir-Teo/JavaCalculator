@@ -149,6 +149,13 @@ public class CalculatorLayout {
                 TextDisplay.setText("");
             }
         });
+        Multiply.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cal.setFunction("Multiply");
+                TextDisplay.setText("");
+            }
+        });
     }
 
     public static void main(String[] args) {
