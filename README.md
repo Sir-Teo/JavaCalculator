@@ -9,8 +9,7 @@ If you like to have a quick look, simply download the file ```CalculatorJava.jar
 - Make sure to click ```Enter``` after entering a number
 
 # More functions
-- [ ] ```sin```, ```cos```, and ```tan``` functions
-- added empty implementation for this one
+- [ ] ```sin```, ```cos```, and ```tan``` functions (already added implementations -> empty Jbuttons)
 
 - [ ] does not need to click ```enter``` everytime when entering a number
 
