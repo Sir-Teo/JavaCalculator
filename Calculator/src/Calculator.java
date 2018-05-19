@@ -19,6 +19,14 @@ public class Calculator {
         return A - B;
     }
 
+    public int Multiply(int A, int B){
+        return A * B;
+    }
+
+    public int Divide(int A, int B){
+        return A / B;
+    }
+
     public void setNum1(int num1) {
         this.num1 = num1;
     }
