@@ -53,6 +53,6 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return this.num1 + " + " + this.num2 + " = ";
+        return this.num1 + function + this.num2 + " = ";
     }
 }

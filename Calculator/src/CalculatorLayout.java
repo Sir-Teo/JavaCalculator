@@ -120,6 +120,14 @@ public class CalculatorLayout {
                 {
                     result = cal.Subtract(cal.getNum1(), cal.getNum2());
                 }
+                if(cal.getFunction().equals("Multiply"))
+                {
+                    result = cal.Multiply(cal.getNum1(), cal.getNum2());
+                }
+                if(cal.getFunction().equals("Divide"))
+                {
+                    result = cal.Divide(cal.getNum1(), cal.getNum2());
+                }
                 TextDisplay.setText(cal.toString() + result);
             }
         });
