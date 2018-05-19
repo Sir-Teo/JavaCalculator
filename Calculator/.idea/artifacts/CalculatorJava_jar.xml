@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CalculatorJava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CalculatorJava_jar</output-path>
+    <root id="archive" name="CalculatorJava.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/Number.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/CalculatorLayout.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/CalculatorLayout.form" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Calculator.java" />
+    </root>
+  </artifact>
+</component>
