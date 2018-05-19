@@ -53,6 +53,15 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return this.num1 + function + this.num2 + " = ";
+        String symbol = "";
+        if(this.function.equals("Add"))
+                    symbol = "+";
+        if(this.function.equals("Subtract"))
+            symbol = "-";
+        if(this.function.equals("Multiply"))
+            symbol = "x";
+        if(this.function.equals("Divide"))
+            symbol = "/";
+        return this.num1 + " " + symbol + " " + this.num2 + " = ";
     }
 }
