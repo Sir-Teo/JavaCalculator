@@ -9,8 +9,8 @@ If you like to have a quick look, simply download the file ```CalculatorJava.jar
 - you can only use integers to do calculations
 - the trigonometry functions are still unavailable
 
-# Developing funcitons
+### Developing funcitons
 - [ ] ```sin```, ```cos```, and ```tan``` functions (already added implementations -> empty Jbuttons)
 - [ ] does not need to click ```enter``` everytime when entering a number
-- [ ] able to input fractions and common constants like $\pi$
+- [ ] able to input fractions and common constants like $$\pi$$
 
