@@ -7,4 +7,4 @@ The main function is under the file ```CalculatorLayout.java```
 - Make sure to click ```Enter``` after entering a number
 
 # More functions
-[x] ```sin```, ```cos```, and ```tan``` functions
+- [x] ```sin```, ```cos```, and ```tan``` functions
