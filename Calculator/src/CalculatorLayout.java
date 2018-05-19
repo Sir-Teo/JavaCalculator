@@ -1,3 +1,7 @@
+/*
+Java Calculator!
+By Sir-Teo
+*/
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -22,6 +26,7 @@ public class CalculatorLayout {
     private JButton Multiply;
     private JButton Divide;
     private JLabel welcomeLabel;
+    private JLabel Label2;
 
     public CalculatorLayout() {
 
