@@ -156,6 +156,13 @@ public class CalculatorLayout {
                 TextDisplay.setText("");
             }
         });
+        Divide.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cal.setFunction("Divide");
+                TextDisplay.setText("");
+            }
+        });
     }
 
     public static void main(String[] args) {
