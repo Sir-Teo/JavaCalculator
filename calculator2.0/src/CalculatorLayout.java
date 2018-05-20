@@ -37,7 +37,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(1));
+                TextDisplay.setText(str + Double.toString(1));
             }
         });
 
@@ -45,7 +45,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(2));
+                TextDisplay.setText(str + Double.toString(2));
             }
         });
 
@@ -53,7 +53,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(3));
+                TextDisplay.setText(str + Double.toString(3));
             }
         });
 
@@ -111,7 +111,7 @@ public class CalculatorLayout {
                 if(cal.getNum1()==-999999)
                     cal.setNum1(Integer.parseInt(TextDisplay.getText()));
                 else
-                    cal.setNum2(Integer.parseInt(TextDisplay.getText()));
+                    cal.setNum2(Double.parseDouble(TextDisplay.getText()));
             }
         });
 
@@ -175,6 +175,12 @@ public class CalculatorLayout {
             public void actionPerformed(ActionEvent e) {
                 cal.setFunction("Divide");
                 TextDisplay.setText("");
+            }
+        });
+        Dot.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }
