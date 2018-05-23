@@ -13,6 +13,10 @@ If you like to have a quick look, simply open the file ```CalculatorJava.jar``` 
 - you can only use integers to do calculations
 - the trigonometry functions are still unavailable
 
+### Calculator 2.0 
+- you can now entered fractions
+- use trigonometries
+
 ### Developing funcitons
 - [ ] ```sin```, ```cos```, and ```tan``` functions (already added implementations -> empty Jbuttons)
 - [ ] does not need to click ```enter``` everytime when entering a number
