@@ -61,7 +61,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(4));
+                TextDisplay.setText(str + Double.toString(4));
             }
         });
 
@@ -69,7 +69,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(5));
+                TextDisplay.setText(str + Double.toString(5));
             }
         });
 
@@ -77,7 +77,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(6));
+                TextDisplay.setText(str + Double.toString(6));
             }
         });
 
@@ -85,7 +85,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(7));
+                TextDisplay.setText(str + Double.toString(7));
             }
         });
 
@@ -93,7 +93,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(8));
+                TextDisplay.setText(str + Double.toString(8));
             }
         });
 
@@ -101,7 +101,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String str = TextDisplay.getText();
-                TextDisplay.setText(str + Integer.toString(9));
+                TextDisplay.setText(str + Double.toString(9));
             }
         });
 
@@ -109,7 +109,7 @@ public class CalculatorLayout {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(cal.getNum1()==-999999)
-                    cal.setNum1(Integer.parseInt(TextDisplay.getText()));
+                    cal.setNum1(Double.parseDouble(TextDisplay.getText()));
                 else
                     cal.setNum2(Double.parseDouble(TextDisplay.getText()));
             }

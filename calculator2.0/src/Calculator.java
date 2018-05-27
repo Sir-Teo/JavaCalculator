@@ -1,3 +1,4 @@
+
 public class Calculator {
 
     private double num1 = -999999;

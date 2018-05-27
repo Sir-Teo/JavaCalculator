@@ -1,11 +1,10 @@
 public class Number {
-    private int value = 0;
-
-    public Number(int V) {
+    private double value = 0;
+    public Number(double V) {
         this.value = V;
     }
 
-    public int getValue() {
+    public double getValue() {
         return value;
     }
 
@@ -15,7 +14,7 @@ public class Number {
 
     @Override
     public String toString() {
-        return  Integer.toString(this.value);
+        return  Double.toString(this.value);
     }
 
 }
